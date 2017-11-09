@@ -1,0 +1,21 @@
+/* Class = "UILabel"; text = "carbonCount"; ObjectID = "Gi1-Jg-jwm"; */
+"Gi1-Jg-jwm.text" = "carbonCount";
+
+/* Class = "UILabel"; text = "treeCount"; ObjectID = "Qld-Rc-ROE"; */
+"Qld-Rc-ROE.text" = "treeCount";
+
+/* Class = "UILabel"; text = "My Conservation Efforts"; ObjectID = "TU2-L9-mcU"; */
+"TU2-L9-mcU.text" = "私の保全努力";
+
+/* Class = "UILabel"; text = "waterCount"; ObjectID = "dTJ-4Y-qEJ"; */
+"dTJ-4Y-qEJ.text" = "waterCount";
+
+/* Class = "UILabel"; text = "electricCount"; ObjectID = "gC4-pP-Rno"; */
+"gC4-pP-Rno.text" = "electricCount";
+
+/* Class = "UILabel"; text = "User Full Name"; ObjectID = "lWM-fB-sUU"; */
+"lWM-fB-sUU.text" = "User Full Name";
+
+/* Class = "UITabBarItem"; title = "Profile"; ObjectID = "yE8-At-kZH"; */
+"yE8-At-kZH.title" = "プロフィール";
+

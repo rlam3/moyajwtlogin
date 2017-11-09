@@ -1,0 +1,52 @@
+//
+//  ViewController.swift
+//  moyaJWTLogin
+//
+//  Created by Raymond Lam on 11/3/17.
+//
+
+import UIKit
+import RxSwift
+import Moya_ModelMapper
+
+
+class MoyaLoginViewController: UIViewController {
+
+    var provider: Networking!
+    let disposeBag = DisposeBag()
+    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        provider = Networking.newDefaultNetworking()
+        
+        provider.request(.authenticateUser(username: "raymondlam1991@gmail.com", password: "asdfasdf"))
+            .debug("authenticateUser", trimOutput: false)
+            .map(to: UserAuthenticationTokens.self)
+            .subscribe{ event in
+                switch event{
+                case .next(let object):
+                    AuthUser.save(object.access_token, as: .access_token)
+                    AuthUser.save(object.refresh_token, as: .refresh_token)
+                    
+                case .error(let error):
+                    print("Error in saving new tokens\(error.localizedDescription)")
+                    
+                default:
+                    break
+                }
+                
+            }.disposed(by: disposeBag)
+        
+        // Do any additional setup after loading the view, typically from a nib.
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+
+
+}
+

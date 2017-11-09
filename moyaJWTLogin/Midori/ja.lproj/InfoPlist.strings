@@ -1,0 +1,6 @@
+/* (No Comment) */
+"NSLocationAlwaysUsageDescription" = "このアプリがあなたの場所を常に知ることを許可しますか？";
+
+/* (No Comment) */
+"NSLocationWhenInUseUsageDescription" = "このアプリにあなたの現在の場所を知らせることを許可しますか？";
+

@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "id": 20, 
+      "is_current_user_subscribed": true, 
+      "name": "Chicago"
+    }, 
+    {
+      "id": 35, 
+      "is_current_user_subscribed": true, 
+      "name": "New Jersey"
+    }, 
+    {
+      "id": 34, 
+      "is_current_user_subscribed": true, 
+      "name": "San Jose"
+    }, 
+    {
+      "id": 17, 
+      "is_current_user_subscribed": true, 
+      "name": "So Cal"
+    }
+  ]
+}

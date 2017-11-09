@@ -1,0 +1,24 @@
+/* Class = "UITabBarItem"; title = "Feed"; ObjectID = "Bql-Bq-8TN"; */
+"Bql-Bq-8TN.title" = "フィード";
+
+/* Class = "UITextField"; placeholder = "email"; ObjectID = "D3g-Dc-0ik"; */
+"D3g-Dc-0ik.placeholder" = "Eメール";
+
+/* Class = "UITextField"; placeholder = "password"; ObjectID = "PgH-3n-nl0"; */
+"PgH-3n-nl0.placeholder" = "パスワード";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "bL0-Jg-Dkv"; */
+"bL0-Jg-Dkv.normalTitle" = "ログイン";
+
+/* Class = "UILabel"; text = "Login to Midori"; ObjectID = "hwT-tK-Zjx"; */
+"hwT-tK-Zjx.text" = "ミドリにログイン";
+
+/* Class = "UILabel"; text = "Organization - Region"; ObjectID = "jQb-rP-uKa"; */
+"jQb-rP-uKa.text" = "組織 - 地域";
+
+/* Class = "UIButton"; normalTitle = "Forgot Password?"; ObjectID = "llH-Dz-MHF"; */
+"llH-Dz-MHF.normalTitle" = "パスワードをお忘れですか";
+
+/* Class = "UIButton"; normalTitle = "Sign up"; ObjectID = "yna-hN-fBf"; */
+"yna-hN-fBf.normalTitle" = "アップ";
+

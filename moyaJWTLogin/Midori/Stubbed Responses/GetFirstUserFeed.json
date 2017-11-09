@@ -1,0 +1,604 @@
+{
+  "data": [
+    {
+      "description": "Otsukimi",
+      "expiry_date": "2016-09-22T10:17:00+00:00",
+      "id": 165,
+      "isReleased": true,
+      "organization_display_name": "Mitsuwa Marketplace",
+      "organization_uuid": "mitsuwa",
+      "organizationid": 1,
+      "pub_date": "2016-09-09T10:17:00+00:00",
+      "publication_files": [
+        {
+          "file_path": "organization_publication/41961907-9158-11e6-a1db-acbc3295b69f",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/41961907-9158-11e6-a1db-acbc3295b69f",
+          "id": 385
+        },
+        {
+          "file_path": "organization_publication/46ba8459-9158-11e6-b826-acbc3295b69f",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/46ba8459-9158-11e6-b826-acbc3295b69f",
+          "id": 386
+        },
+        {
+          "file_path": "organization_publication/4ecf7926-9158-11e6-9772-acbc3295b69f",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/4ecf7926-9158-11e6-9772-acbc3295b69f",
+          "id": 387
+        },
+        {
+          "file_path": "organization_publication/56517597-9158-11e6-bb7c-acbc3295b69f",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/56517597-9158-11e6-bb7c-acbc3295b69f",
+          "id": 388
+        },
+        {
+          "file_path": "organization_publication/5ebf1699-9158-11e6-817e-acbc3295b69f",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/5ebf1699-9158-11e6-817e-acbc3295b69f",
+          "id": 389
+        },
+        {
+          "file_path": "organization_publication/646d2954-9158-11e6-9d12-acbc3295b69f",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/646d2954-9158-11e6-9d12-acbc3295b69f",
+          "id": 390
+        },
+        {
+          "file_path": "organization_publication/6bc4dc6b-9158-11e6-b227-acbc3295b69f",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/6bc4dc6b-9158-11e6-b227-acbc3295b69f",
+          "id": 391
+        }
+      ],
+      "summary": "Otsukimi",
+      "target_region": {
+        "id": 20,
+        "name": "Chicago"
+      },
+      "title": "Celebrate the full moon on 9/15",
+      "top_cover": {
+        "height": 3300,
+        "url": "http://d33auhyo6n5049.cloudfront.net/organization_publication/41961907-9158-11e6-a1db-acbc3295b69f",
+        "width": 2550
+      },
+      "url": "/organization/mitsuwa/publication/165"
+    },
+    {
+      "description": "Let's pack our lunch!",
+      "expiry_date": "2016-09-08T10:21:00+00:00",
+      "id": 166,
+      "isReleased": true,
+      "organization_display_name": "Mitsuwa Marketplace",
+      "organization_uuid": "mitsuwa",
+      "organizationid": 1,
+      "pub_date": "2016-08-26T10:21:00+00:00",
+      "publication_files": [
+        {
+          "file_path": "organization_publication/bfa47d2e-9158-11e6-a5ba-acbc3295b69f",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/bfa47d2e-9158-11e6-a5ba-acbc3295b69f",
+          "id": 392
+        },
+        {
+          "file_path": "organization_publication/c677e8d1-9158-11e6-89cd-acbc3295b69f",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/c677e8d1-9158-11e6-89cd-acbc3295b69f",
+          "id": 393
+        },
+        {
+          "file_path": "organization_publication/ce3cf3b5-9158-11e6-93e3-acbc3295b69f",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/ce3cf3b5-9158-11e6-93e3-acbc3295b69f",
+          "id": 394
+        },
+        {
+          "file_path": "organization_publication/d5af966b-9158-11e6-a6a7-acbc3295b69f",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/d5af966b-9158-11e6-a6a7-acbc3295b69f",
+          "id": 395
+        },
+        {
+          "file_path": "organization_publication/da7ac66b-9158-11e6-bbbb-acbc3295b69f",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/da7ac66b-9158-11e6-bbbb-acbc3295b69f",
+          "id": 396
+        },
+        {
+          "file_path": "organization_publication/e196e4c5-9158-11e6-9abc-acbc3295b69f",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/e196e4c5-9158-11e6-9abc-acbc3295b69f",
+          "id": 397
+        },
+        {
+          "file_path": "organization_publication/e8ada40c-9158-11e6-9733-acbc3295b69f",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/e8ada40c-9158-11e6-9733-acbc3295b69f",
+          "id": 398
+        }
+      ],
+      "summary": "Let's pack our lunch!",
+      "target_region": {
+        "id": 20,
+        "name": "Chicago"
+      },
+      "title": "Back to school!",
+      "top_cover": {
+        "height": 3300,
+        "url": "http://d33auhyo6n5049.cloudfront.net/organization_publication/bfa47d2e-9158-11e6-a5ba-acbc3295b69f",
+        "width": 2550
+      },
+      "url": "/organization/mitsuwa/publication/166"
+    },
+    {
+      "description": "Refreshing summer dish",
+      "expiry_date": "2016-08-25T10:14:00+00:00",
+      "id": 164,
+      "isReleased": true,
+      "organization_display_name": "Mitsuwa Marketplace",
+      "organization_uuid": "mitsuwa",
+      "organizationid": 1,
+      "pub_date": "2016-08-12T10:14:00+00:00",
+      "publication_files": [
+        {
+          "file_path": "organization_publication/c4e15811-9157-11e6-a67a-acbc3295b69f",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/c4e15811-9157-11e6-a67a-acbc3295b69f",
+          "id": 378
+        },
+        {
+          "file_path": "organization_publication/c9eb51fa-9157-11e6-9362-acbc3295b69f",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/c9eb51fa-9157-11e6-9362-acbc3295b69f",
+          "id": 379
+        },
+        {
+          "file_path": "organization_publication/d106ec2e-9157-11e6-be85-acbc3295b69f",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/d106ec2e-9157-11e6-be85-acbc3295b69f",
+          "id": 380
+        },
+        {
+          "file_path": "organization_publication/d8aabb40-9157-11e6-bc98-acbc3295b69f",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/d8aabb40-9157-11e6-bc98-acbc3295b69f",
+          "id": 381
+        },
+        {
+          "file_path": "organization_publication/e0fc1673-9157-11e6-a64f-acbc3295b69f",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/e0fc1673-9157-11e6-a64f-acbc3295b69f",
+          "id": 382
+        },
+        {
+          "file_path": "organization_publication/e528741e-9157-11e6-b18d-acbc3295b69f",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/e528741e-9157-11e6-b18d-acbc3295b69f",
+          "id": 383
+        },
+        {
+          "file_path": "organization_publication/ed12578a-9157-11e6-b466-acbc3295b69f",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/ed12578a-9157-11e6-b466-acbc3295b69f",
+          "id": 384
+        }
+      ],
+      "summary": "Refreshing summer dish",
+      "target_region": {
+        "id": 20,
+        "name": "Chicago"
+      },
+      "title": "Refreshing summer dish",
+      "top_cover": {
+        "height": 3300,
+        "url": "http://d33auhyo6n5049.cloudfront.net/organization_publication/c4e15811-9157-11e6-a67a-acbc3295b69f",
+        "width": 2550
+      },
+      "url": "/organization/mitsuwa/publication/164"
+    },
+    {
+      "description": "Keep cool this summer!",
+      "expiry_date": "2016-08-11T09:34:00+00:00",
+      "id": 163,
+      "isReleased": true,
+      "organization_display_name": "Mitsuwa Marketplace",
+      "organization_uuid": "mitsuwa",
+      "organizationid": 1,
+      "pub_date": "2016-07-29T09:34:00+00:00",
+      "publication_files": [
+        {
+          "file_path": "organization_publication/2a7abb38-9152-11e6-8497-acbc3295b69f",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/2a7abb38-9152-11e6-8497-acbc3295b69f",
+          "id": 371
+        },
+        {
+          "file_path": "organization_publication/2edaa635-9152-11e6-bec9-acbc3295b69f",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/2edaa635-9152-11e6-bec9-acbc3295b69f",
+          "id": 372
+        },
+        {
+          "file_path": "organization_publication/35d2c368-9152-11e6-9680-acbc3295b69f",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/35d2c368-9152-11e6-9680-acbc3295b69f",
+          "id": 373
+        },
+        {
+          "file_path": "organization_publication/3d20b4fd-9152-11e6-ad89-acbc3295b69f",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/3d20b4fd-9152-11e6-ad89-acbc3295b69f",
+          "id": 374
+        },
+        {
+          "file_path": "organization_publication/457e93bd-9152-11e6-a62c-acbc3295b69f",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/457e93bd-9152-11e6-a62c-acbc3295b69f",
+          "id": 375
+        },
+        {
+          "file_path": "organization_publication/4a3fc470-9152-11e6-8a24-acbc3295b69f",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/4a3fc470-9152-11e6-8a24-acbc3295b69f",
+          "id": 376
+        },
+        {
+          "file_path": "organization_publication/51113eb5-9152-11e6-89ec-acbc3295b69f",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/51113eb5-9152-11e6-89ec-acbc3295b69f",
+          "id": 377
+        }
+      ],
+      "summary": "Keep cool this summer!",
+      "target_region": {
+        "id": 20,
+        "name": "Chicago"
+      },
+      "title": "Keep cool this summer!",
+      "top_cover": {
+        "height": 3300,
+        "url": "http://d33auhyo6n5049.cloudfront.net/organization_publication/2a7abb38-9152-11e6-8497-acbc3295b69f",
+        "width": 2550
+      },
+      "url": "/organization/mitsuwa/publication/163"
+    },
+    {
+      "description": "Enjoy Tasty Eel",
+      "expiry_date": "2016-07-28T10:15:00+00:00",
+      "id": 162,
+      "isReleased": true,
+      "organization_display_name": "Mitsuwa Marketplace",
+      "organization_uuid": "mitsuwa",
+      "organizationid": 1,
+      "pub_date": "2016-07-15T10:15:00+00:00",
+      "publication_files": [
+        {
+          "file_path": "organization_publication/f3da3263-4e8c-11e6-a71e-c8e0eb3998b9",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/f3da3263-4e8c-11e6-a71e-c8e0eb3998b9",
+          "id": 364
+        },
+        {
+          "file_path": "organization_publication/f90b4aab-4e8c-11e6-8dc4-c8e0eb3998b9",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/f90b4aab-4e8c-11e6-8dc4-c8e0eb3998b9",
+          "id": 365
+        },
+        {
+          "file_path": "organization_publication/00a012b5-4e8d-11e6-a866-c8e0eb3998b9",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/00a012b5-4e8d-11e6-a866-c8e0eb3998b9",
+          "id": 366
+        },
+        {
+          "file_path": "organization_publication/074b4dcc-4e8d-11e6-84b7-c8e0eb3998b9",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/074b4dcc-4e8d-11e6-84b7-c8e0eb3998b9",
+          "id": 367
+        },
+        {
+          "file_path": "organization_publication/0ee11370-4e8d-11e6-bc4c-c8e0eb3998b9",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/0ee11370-4e8d-11e6-bc4c-c8e0eb3998b9",
+          "id": 368
+        },
+        {
+          "file_path": "organization_publication/1361fc28-4e8d-11e6-9c7c-c8e0eb3998b9",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/1361fc28-4e8d-11e6-9c7c-c8e0eb3998b9",
+          "id": 369
+        },
+        {
+          "file_path": "organization_publication/1ac494c0-4e8d-11e6-a357-c8e0eb3998b9",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/1ac494c0-4e8d-11e6-a357-c8e0eb3998b9",
+          "id": 370
+        }
+      ],
+      "summary": "Enjoy Tasty Eel",
+      "target_region": {
+        "id": 20,
+        "name": "Chicago"
+      },
+      "title": "Enjoy Tasty Eel",
+      "top_cover": {
+        "height": 3374,
+        "url": "http://d33auhyo6n5049.cloudfront.net/organization_publication/f3da3263-4e8c-11e6-a71e-c8e0eb3998b9",
+        "width": 2624
+      },
+      "url": "/organization/mitsuwa/publication/162"
+    },
+    {
+      "description": "Happy 4th of July",
+      "expiry_date": "2016-07-14T10:12:00+00:00",
+      "id": 161,
+      "isReleased": true,
+      "organization_display_name": "Mitsuwa Marketplace",
+      "organization_uuid": "mitsuwa",
+      "organizationid": 1,
+      "pub_date": "2016-07-01T10:12:00+00:00",
+      "publication_files": [
+        {
+          "file_path": "organization_publication/75fc5294-4e8c-11e6-a42e-c8e0eb3998b9",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/75fc5294-4e8c-11e6-a42e-c8e0eb3998b9",
+          "id": 357
+        },
+        {
+          "file_path": "organization_publication/7b17fb4a-4e8c-11e6-ac31-c8e0eb3998b9",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/7b17fb4a-4e8c-11e6-ac31-c8e0eb3998b9",
+          "id": 358
+        },
+        {
+          "file_path": "organization_publication/826a276b-4e8c-11e6-8ec1-c8e0eb3998b9",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/826a276b-4e8c-11e6-8ec1-c8e0eb3998b9",
+          "id": 359
+        },
+        {
+          "file_path": "organization_publication/89c89973-4e8c-11e6-89b1-c8e0eb3998b9",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/89c89973-4e8c-11e6-89b1-c8e0eb3998b9",
+          "id": 360
+        },
+        {
+          "file_path": "organization_publication/91d5f47a-4e8c-11e6-944b-c8e0eb3998b9",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/91d5f47a-4e8c-11e6-944b-c8e0eb3998b9",
+          "id": 361
+        },
+        {
+          "file_path": "organization_publication/96087c40-4e8c-11e6-bf40-c8e0eb3998b9",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/96087c40-4e8c-11e6-bf40-c8e0eb3998b9",
+          "id": 362
+        },
+        {
+          "file_path": "organization_publication/9d072335-4e8c-11e6-a6d3-c8e0eb3998b9",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/9d072335-4e8c-11e6-a6d3-c8e0eb3998b9",
+          "id": 363
+        }
+      ],
+      "summary": "Happy 4th of July",
+      "target_region": {
+        "id": 20,
+        "name": "Chicago"
+      },
+      "title": "Happy 4th of July",
+      "top_cover": {
+        "height": 3374,
+        "url": "http://d33auhyo6n5049.cloudfront.net/organization_publication/75fc5294-4e8c-11e6-a42e-c8e0eb3998b9",
+        "width": 2594
+      },
+      "url": "/organization/mitsuwa/publication/161"
+    },
+    {
+      "description": "For the best dad in the world",
+      "expiry_date": "2016-06-30T10:02:00+00:00",
+      "id": 160,
+      "isReleased": true,
+      "organization_display_name": "Mitsuwa Marketplace",
+      "organization_uuid": "mitsuwa",
+      "organizationid": 1,
+      "pub_date": "2016-06-17T10:02:00+00:00",
+      "publication_files": [
+        {
+          "file_path": "organization_publication/0497df85-4e8b-11e6-8a21-c8e0eb3998b9",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/0497df85-4e8b-11e6-8a21-c8e0eb3998b9",
+          "id": 345
+        },
+        {
+          "file_path": "organization_publication/18ad6391-4e8b-11e6-babd-c8e0eb3998b9",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/18ad6391-4e8b-11e6-babd-c8e0eb3998b9",
+          "id": 346
+        },
+        {
+          "file_path": "organization_publication/32cb4397-4e8b-11e6-b5dc-c8e0eb3998b9",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/32cb4397-4e8b-11e6-b5dc-c8e0eb3998b9",
+          "id": 348
+        },
+        {
+          "file_path": "organization_publication/4c472199-4e8b-11e6-a58d-c8e0eb3998b9",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/4c472199-4e8b-11e6-a58d-c8e0eb3998b9",
+          "id": 349
+        },
+        {
+          "file_path": "organization_publication/5afbaa38-4e8b-11e6-9447-c8e0eb3998b9",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/5afbaa38-4e8b-11e6-9447-c8e0eb3998b9",
+          "id": 350
+        },
+        {
+          "file_path": "organization_publication/6403264c-4e8b-11e6-bf23-c8e0eb3998b9",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/6403264c-4e8b-11e6-bf23-c8e0eb3998b9",
+          "id": 353
+        },
+        {
+          "file_path": "organization_publication/837ddc23-4e8b-11e6-8043-c8e0eb3998b9",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/837ddc23-4e8b-11e6-8043-c8e0eb3998b9",
+          "id": 354
+        }
+      ],
+      "summary": "For the best dad in the world",
+      "target_region": {
+        "id": 20,
+        "name": "Chicago"
+      },
+      "title": "For the best dad in the world",
+      "top_cover": {
+        "height": 3300,
+        "url": "http://d33auhyo6n5049.cloudfront.net/organization_publication/0497df85-4e8b-11e6-8a21-c8e0eb3998b9",
+        "width": 2554
+      },
+      "url": "/organization/mitsuwa/publication/160"
+    },
+    {
+      "description": "Summer is almost here!",
+      "expiry_date": "2016-06-16T10:01:00+00:00",
+      "id": 159,
+      "isReleased": true,
+      "organization_display_name": "Mitsuwa Marketplace",
+      "organization_uuid": "mitsuwa",
+      "organizationid": 1,
+      "pub_date": "2016-06-03T10:01:00+00:00",
+      "publication_files": [
+        {
+          "file_path": "organization_publication/df3f251e-4e8a-11e6-a858-c8e0eb3998b9",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/df3f251e-4e8a-11e6-a858-c8e0eb3998b9",
+          "id": 343
+        },
+        {
+          "file_path": "organization_publication/efb929d9-4e8a-11e6-9764-c8e0eb3998b9",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/efb929d9-4e8a-11e6-9764-c8e0eb3998b9",
+          "id": 344
+        },
+        {
+          "file_path": "organization_publication/08ce777d-4e8b-11e6-b2bc-c8e0eb3998b9",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/08ce777d-4e8b-11e6-b2bc-c8e0eb3998b9",
+          "id": 347
+        },
+        {
+          "file_path": "organization_publication/42280338-4e8b-11e6-b537-c8e0eb3998b9",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/42280338-4e8b-11e6-b537-c8e0eb3998b9",
+          "id": 351
+        },
+        {
+          "file_path": "organization_publication/6b0265de-4e8b-11e6-b41e-c8e0eb3998b9",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/6b0265de-4e8b-11e6-b41e-c8e0eb3998b9",
+          "id": 352
+        },
+        {
+          "file_path": "organization_publication/7b1568d4-4e8b-11e6-9d94-c8e0eb3998b9",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/7b1568d4-4e8b-11e6-9d94-c8e0eb3998b9",
+          "id": 355
+        },
+        {
+          "file_path": "organization_publication/b8e285ae-4e8b-11e6-8f10-c8e0eb3998b9",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/b8e285ae-4e8b-11e6-8f10-c8e0eb3998b9",
+          "id": 356
+        }
+      ],
+      "summary": "Summer is almost here!",
+      "target_region": {
+        "id": 20,
+        "name": "Chicago"
+      },
+      "title": "Summer is almost here!",
+      "top_cover": {
+        "height": 3300,
+        "url": "http://d33auhyo6n5049.cloudfront.net/organization_publication/df3f251e-4e8a-11e6-a858-c8e0eb3998b9",
+        "width": 2550
+      },
+      "url": "/organization/mitsuwa/publication/159"
+    },
+    {
+      "description": "Happy Memorial Day!",
+      "expiry_date": "2016-06-02T12:25:00+00:00",
+      "id": 158,
+      "isReleased": true,
+      "organization_display_name": "Mitsuwa Marketplace",
+      "organization_uuid": "mitsuwa",
+      "organizationid": 1,
+      "pub_date": "2016-05-20T12:25:00+00:00",
+      "publication_files": [
+        {
+          "file_path": "organization_publication/e92b090a-3fb0-11e6-a375-685b358e848d",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/e92b090a-3fb0-11e6-a375-685b358e848d",
+          "id": 335
+        },
+        {
+          "file_path": "organization_publication/ee83d76b-3fb0-11e6-9917-685b358e848d",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/ee83d76b-3fb0-11e6-9917-685b358e848d",
+          "id": 336
+        },
+        {
+          "file_path": "organization_publication/f5ddeda1-3fb0-11e6-b7fc-685b358e848d",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/f5ddeda1-3fb0-11e6-b7fc-685b358e848d",
+          "id": 337
+        },
+        {
+          "file_path": "organization_publication/fdacde57-3fb0-11e6-89ef-685b358e848d",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/fdacde57-3fb0-11e6-89ef-685b358e848d",
+          "id": 338
+        },
+        {
+          "file_path": "organization_publication/05e2e70c-3fb1-11e6-88be-685b358e848d",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/05e2e70c-3fb1-11e6-88be-685b358e848d",
+          "id": 339
+        },
+        {
+          "file_path": "organization_publication/0ae79efa-3fb1-11e6-8008-685b358e848d",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/0ae79efa-3fb1-11e6-8008-685b358e848d",
+          "id": 340
+        },
+        {
+          "file_path": "organization_publication/12a1975c-3fb1-11e6-85a5-685b358e848d",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/12a1975c-3fb1-11e6-85a5-685b358e848d",
+          "id": 341
+        }
+      ],
+      "summary": "Happy Memorial Day!",
+      "target_region": {
+        "id": 20,
+        "name": "Chicago"
+      },
+      "title": "Happy Memorial Day!",
+      "top_cover": {
+        "height": 3300,
+        "url": "http://d33auhyo6n5049.cloudfront.net/organization_publication/e92b090a-3fb0-11e6-a375-685b358e848d",
+        "width": 2550
+      },
+      "url": "/organization/mitsuwa/publication/158"
+    },
+    {
+      "description": "Wow Your Mom!",
+      "expiry_date": "2016-05-19T17:06:00+00:00",
+      "id": 54,
+      "isReleased": true,
+      "organization_display_name": "Mitsuwa Marketplace",
+      "organization_uuid": "mitsuwa",
+      "organizationid": 1,
+      "pub_date": "2016-05-06T17:06:00+00:00",
+      "publication_files": [
+        {
+          "file_path": "organization_publication/99cf51ee-130d-11e6-86f2-685b358e848d",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/99cf51ee-130d-11e6-86f2-685b358e848d",
+          "id": 260
+        },
+        {
+          "file_path": "organization_publication/9b0c2102-130d-11e6-9c62-685b358e848d",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/9b0c2102-130d-11e6-9c62-685b358e848d",
+          "id": 261
+        },
+        {
+          "file_path": "organization_publication/9c185835-130d-11e6-ae41-685b358e848d",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/9c185835-130d-11e6-ae41-685b358e848d",
+          "id": 262
+        },
+        {
+          "file_path": "organization_publication/9d2227ca-130d-11e6-8b66-685b358e848d",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/9d2227ca-130d-11e6-8b66-685b358e848d",
+          "id": 263
+        },
+        {
+          "file_path": "organization_publication/9e32e92e-130d-11e6-b473-685b358e848d",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/9e32e92e-130d-11e6-b473-685b358e848d",
+          "id": 264
+        },
+        {
+          "file_path": "organization_publication/9eeb7728-130d-11e6-97b8-685b358e848d",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/9eeb7728-130d-11e6-97b8-685b358e848d",
+          "id": 265
+        },
+        {
+          "file_path": "organization_publication/9fc7b4ae-130d-11e6-8027-685b358e848d",
+          "full_cdn_path": "http://d33auhyo6n5049.cloudfront.net/organization_publication/9fc7b4ae-130d-11e6-8027-685b358e848d",
+          "id": 266
+        }
+      ],
+      "summary": "Wow Your Mom!",
+      "target_region": {
+        "id": 20,
+        "name": "Chicago"
+      },
+      "title": "Wow Your Mom!",
+      "top_cover": {
+        "height": 150,
+        "url": "http://d33auhyo6n5049.cloudfront.net/organization_publication/99cf51ee-130d-11e6-86f2-685b358e848d",
+        "width": 100
+      },
+      "url": "/organization/mitsuwa/publication/54"
+    }
+  ],
+  "page": {
+    "current": "/api/v1.0/user/feed/1?limit=10",
+    "next": "/api/v1.0/user/feed/2?limit=10",
+    "next_num": 2,
+    "prev": null,
+    "prev_num": null,
+    "total": 45,
+    "total_pages": 5,
+    "total_per_page": 10
+  }
+}

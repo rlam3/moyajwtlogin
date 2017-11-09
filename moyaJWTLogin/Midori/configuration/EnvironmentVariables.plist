@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SerendipityLabs</key>
+	<dict>
+		<key>APIEndpointURL</key>
+		<string>https://10.30.11.99/api</string>
+		<key>BaseURL</key>
+		<string>https://10.30.11.99/</string>
+		<key>ForgotPasswordURL</key>
+		<string>https://10.30.11.99/user/forgot_password</string>
+	</dict>
+	<key>Beta</key>
+	<dict>
+		<key>APIEndpointURL</key>
+		<string>https://alpha.midori.io/api</string>
+		<key>BaseURL</key>
+		<string>https://alpha.midori.io/</string>
+		<key>ForgotPasswordURL</key>
+		<string>https://alpha.midori.io/user/forgot_password</string>
+	</dict>
+	<key>Development</key>
+	<dict>
+		<key>APIEndpointURL</key>
+		<string>http://10.0.1.4:5000/api</string>
+		<key>BaseURL</key>
+		<string>http://10.0.1.4:5000/</string>
+		<key>ForgotPasswordURL</key>
+		<string>http://10.0.1.4:5000/user/forgot_password</string>
+	</dict>
+	<key>Debug</key>
+	<dict>
+		<key>APIEndpointURL</key>
+		<string>http://localhost:5000/api</string>
+		<key>BaseURL</key>
+		<string>http://localhost:5000/</string>
+		<key>ForgotPasswordURL</key>
+		<string>http://localhost:5000/user/forgot_password</string>
+	</dict>
+	<key>Production</key>
+	<dict>
+		<key>APIEndpointURL</key>
+		<string>https://alpha.midori.io/api</string>
+		<key>BaseURL</key>
+		<string>https://alpha.midori.io/</string>
+		<key>ForgotPasswordURL</key>
+		<string>https://alpha.midori.io/user/forgot_password</string>
+	</dict>
+</dict>
+</plist>

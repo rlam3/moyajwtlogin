@@ -1,0 +1,63 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "0Ow-O4-qWN"; */
+"0Ow-O4-qWN.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Subscribe"; ObjectID = "0eR-qd-C51"; */
+"0eR-qd-C51.normalTitle" = "Subscribe";
+
+/* Class = "UINavigationItem"; title = "Search"; ObjectID = "4X2-XO-xLB"; */
+"4X2-XO-xLB.title" = "Search";
+
+/* Class = "UILabel"; text = "publications"; ObjectID = "5HU-aj-cwG"; */
+"5HU-aj-cwG.text" = "publications";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "9HP-81-ZmP"; */
+"9HP-81-ZmP.text" = "Label";
+
+/* Class = "UIViewController"; title = "Search Table View Controller"; ObjectID = "BSx-7C-upQ"; */
+"BSx-7C-upQ.title" = "Search Table View Controller";
+
+/* Class = "UILabel"; text = "subscribers"; ObjectID = "Cds-xa-uXP"; */
+"Cds-xa-uXP.text" = "subscribers";
+
+/* Class = "UILabel"; text = "Org Name"; ObjectID = "DNM-RN-0T8"; */
+"DNM-RN-0T8.text" = "Org Name";
+
+/* Class = "UISearchBar"; placeholder = "Search"; ObjectID = "ECb-JL-Gu1"; */
+"ECb-JL-Gu1.placeholder" = "Search";
+
+/* Class = "UISearchBar"; ECb-JL-Gu1.scopeButtonTitles[0] = "Title"; ObjectID = "ECb-JL-Gu1"; */
+"ECb-JL-Gu1.scopeButtonTitles[0]" = "Title";
+
+/* Class = "UISearchBar"; ECb-JL-Gu1.scopeButtonTitles[1] = "Title"; ObjectID = "ECb-JL-Gu1"; */
+"ECb-JL-Gu1.scopeButtonTitles[1]" = "Title";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "EfG-fS-VXW"; */
+"EfG-fS-VXW.text" = "Label";
+
+/* Class = "UILabel"; text = "events"; ObjectID = "V5I-bE-leb"; */
+"V5I-bE-leb.text" = "events";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Xq8-KQ-G2F"; */
+"Xq8-KQ-G2F.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "Search"; ObjectID = "dRJ-NZ-2HV"; */
+"dRJ-NZ-2HV.title" = "Search";
+
+/* Class = "UILabel"; text = "Organization Name"; ObjectID = "o6t-p9-rGa"; */
+"o6t-p9-rGa.text" = "Organization Name";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "qwE-do-vDu"; */
+"qwE-do-vDu.text" = "Label";
+
+/* Class = "UILabel"; text = "www"; ObjectID = "rYX-oB-BWk"; */
+"rYX-oB-BWk.text" = "www";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "tqr-0k-U0R"; */
+"tqr-0k-U0R.text" = "Label";
+
+/* Class = "UILabel"; text = "We saved"; ObjectID = "viO-i2-COg"; */
+"viO-i2-COg.text" = "We saved";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "xWc-bu-59V"; */
+"xWc-bu-59V.text" = "Label";

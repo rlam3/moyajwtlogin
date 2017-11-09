@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="RCA-Iv-xYb">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Organization Region Selector Collection View Controller-->
+        <scene sceneID="cAQ-8d-myj">
+            <objects>
+                <collectionViewController storyboardIdentifier="OrganizationRegionSelectorCollectionViewController" id="RCA-Iv-xYb" customClass="OrganizationRegionSelectorCollectionViewController" customModule="Midori" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" dataMode="prototypes" id="2P4-25-4cQ">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.99987691640853882" green="0.99499094486236572" blue="0.99483907222747803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="xln-PH-gcS">
+                            <size key="itemSize" width="398" height="139"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="10" maxX="0.0" maxY="10"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="RegionCell" id="a46-lP-MaA" customClass="OrganizationRegionSelectorCollectionViewCell" customModule="Midori" customModuleProvider="target">
+                                <rect key="frame" x="185" y="10" width="398" height="139"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="398" height="139"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Region Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OXx-mY-KQM">
+                                            <rect key="frame" x="139" y="53" width="251" height="34"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1LN-EI-5nz">
+                                            <rect key="frame" x="13" y="19" width="100" height="100"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                    </subviews>
+                                </view>
+                                <color key="backgroundColor" red="0.20746119320392609" green="0.65404576063156128" blue="0.2435985803604126" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <outlet property="defaultRegionPic" destination="1LN-EI-5nz" id="u0a-mP-HnX"/>
+                                    <outlet property="regionName" destination="OXx-mY-KQM" id="W1Q-db-c5g"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="RCA-Iv-xYb" id="McS-Oe-shB"/>
+                            <outlet property="delegate" destination="RCA-Iv-xYb" id="20Y-Nc-jZm"/>
+                        </connections>
+                    </collectionView>
+                    <connections>
+                        <segue destination="BLG-no-edG" kind="show" identifier="showRegionalPublications" id="8Xm-j1-2Ko"/>
+                        <segue destination="wFx-0U-93o" kind="show" identifier="showRegionalLocations" id="Egz-Dg-RsO"/>
+                    </connections>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fqn-gm-h6d" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3580.46875" y="433.59375"/>
+        </scene>
+        <!--FeedViewController-->
+        <scene sceneID="tbT-my-9Rc">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" referencedIdentifier="FeedViewController" id="BLG-no-edG" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cl4-pF-FcL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4225.5" y="351"/>
+        </scene>
+        <!--RegionalLocation-->
+        <scene sceneID="ZsW-C1-QdD">
+            <objects>
+                <viewControllerPlaceholder storyboardName="RegionalLocation" id="wFx-0U-93o" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YbS-vS-hfX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4215.5" y="434"/>
+        </scene>
+    </scenes>
+</document>

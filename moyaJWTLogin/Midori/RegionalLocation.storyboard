@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="iTF-ox-f4S">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Region Location Table View Controller-->
+        <scene sceneID="FYB-cH-h65">
+            <objects>
+                <tableViewController storyboardIdentifier="RegionLocation" id="iTF-ox-f4S" customClass="RegionLocationTableViewController" customModule="Midori" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="179" sectionHeaderHeight="28" sectionFooterHeight="28" id="a7j-Po-pbJ">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="locationCell" rowHeight="100" id="uNq-dR-cnf" customClass="RegionLocationTableViewCell" customModule="Midori" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="768" height="100"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="uNq-dR-cnf" id="XII-Rh-qxo">
+                                    <rect key="frame" x="0.0" y="0.0" width="768" height="99.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="PBG-tF-OTU">
+                                            <rect key="frame" x="8" y="8.5" width="752" height="77"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="p5z-aO-8vB">
+                                                    <rect key="frame" x="0.0" y="13.5" width="50" height="50"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="50" id="IXi-4T-fMe"/>
+                                                        <constraint firstAttribute="height" constant="50" id="UYG-pN-NxX"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="g93-12-7yc">
+                                                    <rect key="frame" x="60" y="12" width="692" height="53"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Street Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M9Z-oG-iFS">
+                                                            <rect key="frame" x="0.0" y="0.0" width="692" height="26.5"/>
+                                                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="22"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Postal Country" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HYV-Ek-iZS">
+                                                            <rect key="frame" x="0.0" y="26.5" width="692" height="26.5"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottomMargin" secondItem="PBG-tF-OTU" secondAttribute="bottom" constant="6" id="5Jn-io-HRu"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="PBG-tF-OTU" secondAttribute="trailing" id="VSP-RW-Z5e"/>
+                                        <constraint firstItem="PBG-tF-OTU" firstAttribute="leading" secondItem="XII-Rh-qxo" secondAttribute="leadingMargin" id="YOL-kn-a11"/>
+                                        <constraint firstItem="PBG-tF-OTU" firstAttribute="top" secondItem="XII-Rh-qxo" secondAttribute="topMargin" id="waf-0Z-Eyq"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="addressPin" destination="p5z-aO-8vB" id="3NE-X5-0EE"/>
+                                    <outlet property="postalCountry" destination="HYV-Ek-iZS" id="sac-Sq-HZM"/>
+                                    <outlet property="streetAddress" destination="M9Z-oG-iFS" id="hid-ZQ-OIK"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="iTF-ox-f4S" id="xar-u0-drM"/>
+                            <outlet property="delegate" destination="iTF-ox-f4S" id="Ttl-82-BAc"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h1E-NA-vt0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="520.3125" y="462.89062499999994"/>
+        </scene>
+    </scenes>
+</document>

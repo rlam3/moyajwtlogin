@@ -1,0 +1,15 @@
+/* Class = "UITextField"; placeholder = "password"; ObjectID = "E2W-WL-voJ"; */
+"E2W-WL-voJ.placeholder" = "パスワード";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "KRk-SR-1Vd"; */
+"KRk-SR-1Vd.normalTitle" = "バック";
+
+/* Class = "UITextField"; placeholder = "email"; ObjectID = "SxR-js-nAe"; */
+"SxR-js-nAe.placeholder" = "Eメール";
+
+/* Class = "UIButton"; normalTitle = "Signup"; ObjectID = "TgO-o8-CJs"; */
+"TgO-o8-CJs.normalTitle" = "サインアップ";
+
+/* Class = "UILabel"; text = "Signup for Midori"; ObjectID = "clb-eH-zlu"; */
+"clb-eH-zlu.text" = "みどりに申し込む";
+

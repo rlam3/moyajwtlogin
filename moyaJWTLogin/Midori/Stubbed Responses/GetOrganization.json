@@ -1,0 +1,35 @@
+{
+  "organization": {
+    "description": "We are a Japanese grocery store that promotes rich Japanese food culture. Stop by for authentic Sushi, Ramen, and more!",
+    "display_name": "Mitsuwa Marketplace",
+    "eco_footprint": {
+      "energy": 784.5,
+      "greenhouse_gas": 634.7,
+      "total_number_views": 1548,
+      "total_weight": 82.0,
+      "trees": 1.5,
+      "water": 6.97
+    },
+    "id": 1,
+    "logo": {
+      "_public_url": "https://flask-test-1.s3.amazonaws.com/organization_logo/72186ea8-7a00-11e5-9b2b-acbc3295b69f?x-amz-meta-x-depot-filename=1098.jpg&x-amz-meta-x-depot-modified=2015-10-24%2003%3A36%3A43",
+      "content_type": "image/jpeg",
+      "depot_name": "organization_logo",
+      "file_id": "72186ea8-7a00-11e5-9b2b-acbc3295b69f",
+      "filename": "1098.jpg",
+      "files": [
+        "organization_logo/72186ea8-7a00-11e5-9b2b-acbc3295b69f",
+        "organization_logo/7364149e-7a00-11e5-8a45-acbc3295b69f"
+      ],
+      "path": "organization_logo/72186ea8-7a00-11e5-9b2b-acbc3295b69f",
+      "thumb_128x128_id": "7364149e-7a00-11e5-8a45-acbc3295b69f",
+      "thumb_128x128_path": "organization_logo/7364149e-7a00-11e5-8a45-acbc3295b69f",
+      "thumb_128x128_url": "/depot/organization_logo/7364149e-7a00-11e5-8a45-acbc3295b69f",
+      "uploaded_at": "2015-10-24 03:36:43"
+    },
+    "name": "mitsuwa",
+    "number_of_publications": 41,
+    "number_of_unique_subscribers": 3,
+    "website": "http://www.mitsuwa.com"
+  }
+}

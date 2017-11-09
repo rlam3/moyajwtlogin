@@ -1,0 +1,15 @@
+
+/* Class = "UITextField"; placeholder = "password"; ObjectID = "E2W-WL-voJ"; */
+"E2W-WL-voJ.placeholder" = "password";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "KRk-SR-1Vd"; */
+"KRk-SR-1Vd.normalTitle" = "Back";
+
+/* Class = "UITextField"; placeholder = "email"; ObjectID = "SxR-js-nAe"; */
+"SxR-js-nAe.placeholder" = "email";
+
+/* Class = "UIButton"; normalTitle = "Signup"; ObjectID = "TgO-o8-CJs"; */
+"TgO-o8-CJs.normalTitle" = "Signup";
+
+/* Class = "UILabel"; text = "Signup for Midori"; ObjectID = "clb-eH-zlu"; */
+"clb-eH-zlu.text" = "Signup for Midori";

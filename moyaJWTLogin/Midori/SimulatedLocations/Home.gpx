@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<gpx
+    xmlns="http://www.topografix.com/GPX/1/1"
+    xmlns:gpxx = "http://www.garmin.com/xmlschemas/GpxExtensions/v3"
+    xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd
+    http://www.garmin.com/xmlschemas/GpxExtensions/v3
+    http://www8.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd"
+    version="1.1"
+    creator="gpx-poi.com">
+    <wpt lat="42.063112" lon="-87.956514">
+        <time>2017-04-26T20:59:17Z</time>
+        <extensions>
+            <gpxx:WaypointExtension>
+                <gpxx:Address>
+                    <gpxx:StreetAddress>128 South Bobby Lane</gpxx:StreetAddress>
+                    <gpxx:City>Mount Prospect</gpxx:City>
+                    <gpxx:State>IL</gpxx:State>
+                    <gpxx:Country>US</gpxx:Country>
+                    <gpxx:PostalCode>60056</gpxx:PostalCode>
+                </gpxx:Address>
+            </gpxx:WaypointExtension>
+        </extensions>
+    </wpt>
+</gpx>

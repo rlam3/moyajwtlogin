@@ -1,0 +1,15 @@
+
+/* Class = "UITextField"; placeholder = "password"; ObjectID = "E2W-WL-voJ"; */
+"E2W-WL-voJ.placeholder" = "암호";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "KRk-SR-1Vd"; */
+"KRk-SR-1Vd.normalTitle" = "뒤로";
+
+/* Class = "UITextField"; placeholder = "email"; ObjectID = "SxR-js-nAe"; */
+"SxR-js-nAe.placeholder" = "이메일";
+
+/* Class = "UIButton"; normalTitle = "Signup"; ObjectID = "TgO-o8-CJs"; */
+"TgO-o8-CJs.normalTitle" = "가입하기";
+
+/* Class = "UILabel"; text = "Signup for Midori"; ObjectID = "clb-eH-zlu"; */
+"clb-eH-zlu.text" = "가입하기";

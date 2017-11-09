@@ -1,0 +1,100 @@
+/* UserSettingsTVC */
+"About" = "およそ";
+
+/* UserSettingsTVC */
+"About Us" = "およそ";
+
+/* LoginVC Alert Title */
+"Alert" = "警報";
+
+/* UserSettingsTVC */
+"Contact Us" = "接触";
+
+/* FeedVC Nav Bar Item */
+"Discover" = "発見する";
+
+/* FeedVC Nav Bar Item */
+"Feed" = "フィード";
+
+/* Onboarding Follow title */
+"Follow" = "フォローする";
+
+/* GeneralUserSettingTVC
+   UserSettingsTVC */
+"General" = "一般設定";
+
+/* UserSettingsTVC */
+"Help / Feedback" = "ヘルプ/フィードバック";
+
+/* LoginVC Alert Message */
+"Invalid Username or Password. Please try again." = "ユーザー名かパスワードが無効。 もう一度お試しください。";
+
+/* UserSettingsTVC */
+"Logout" = "ログアウト";
+
+/* FeedVC Nav Bar Item
+   UserProfileView Navigation Bar Me */
+"Me" = "私";
+
+/* UserProfileVC */
+"My Conservation Efforts" = "私の保全努力";
+
+/* PhotoStreamVC nav title */
+"My Feed" = "私のフィード";
+
+/* LoginVC Alert Action
+   LoginVC Alert action OK */
+"OK" = "OK";
+
+/* OrganizationHomeVC */
+"Our Locations" = "店舗の場所";
+
+/* OrganizationHomeVC */
+"Our Publications" = "出版物";
+
+/* LoginVC Alert Message */
+"Please enter Email and Password" = "メールアドレスとパスワードを入力してください";
+
+/* GeneralUserSettingTVC */
+"Privacy Policy" = "個人情報保護方針";
+
+/* OrganizationRegionSelectorCVC */
+"Select a region to view locations" = "地域を選択";
+
+/* OrganizationRegionSelectorCVC */
+"Select a region to view publications" = "地域を選択";
+
+/* UserSettingsTVC */
+"Settings" = "設定";
+
+/* LoginVC Alert Title */
+"Sign in failed!" = "サインインに失敗しました!";
+
+/* Onboarding Follow description */
+"Tailor your own grocers' updates." = "あなた自身の食料品店のアップデートを調整してください。 \\n";
+
+/* GeneralUserSettingTVC */
+"Terms and Condition" = "規約と条件";
+
+/* LanguageSelectFormVC */
+"What is your preferred language?" = "あなたの好みの言語は何ですか？\\n";
+
+/* OrganizationHomeVC ecofootprint carbon emission
+   user profile carbon count */
+"of carbon emissions" = "の炭素排出量";
+
+/* OrganizationHomeVC ecofootprint energ,y
+   user profile energy */
+"of electricity" = "の電気";
+
+/* OrganizationHomeVC ecofootprint water
+   user profile water stats */
+"of water" = "の水";
+
+/* OrganizationHomeVC ecofootprint trees
+   user profile tree counter */
+"trees" = "の木";
+
+/* Onboarding firstBody */
+"みどり is Japanese word for 'green'" = "みどり";
+

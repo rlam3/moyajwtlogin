@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="Login" id="BYZ-38-t0r" customClass="MoyaLoginViewController" customModule="moyaJWTLogin" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="TSh-cz-DnQ">
+                                <rect key="frame" x="87" y="233" width="200" height="200"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NwN-5w-7WL">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="56.5"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES" textContentType="email"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VLd-9O-QLL">
+                                        <rect key="frame" x="0.0" y="71.5" width="200" height="57"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES" textContentType="password"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qcv-1h-Yju">
+                                        <rect key="frame" x="0.0" y="143.5" width="200" height="56.5"/>
+                                        <state key="normal" title="Login"/>
+                                        <connections>
+                                            <action selector="pressedLoginButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KWJ-54-drV"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="NwN-5w-7WL" secondAttribute="trailing" id="0JD-Mm-ctW"/>
+                                    <constraint firstItem="NwN-5w-7WL" firstAttribute="leading" secondItem="TSh-cz-DnQ" secondAttribute="leading" id="9xB-EB-bFc"/>
+                                    <constraint firstItem="VLd-9O-QLL" firstAttribute="leading" secondItem="TSh-cz-DnQ" secondAttribute="leading" id="Af2-jb-S8q"/>
+                                    <constraint firstItem="Qcv-1h-Yju" firstAttribute="leading" secondItem="TSh-cz-DnQ" secondAttribute="leading" id="BvO-u0-CVX"/>
+                                    <constraint firstAttribute="width" constant="200" id="JRb-sb-3ut"/>
+                                    <constraint firstAttribute="trailing" secondItem="Qcv-1h-Yju" secondAttribute="trailing" id="aQp-5K-vyL"/>
+                                    <constraint firstAttribute="height" constant="200" id="hfw-vy-1aU"/>
+                                    <constraint firstAttribute="trailing" secondItem="VLd-9O-QLL" secondAttribute="trailing" id="yAj-Y8-nhD"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="TSh-cz-DnQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="czF-4N-yQF"/>
+                            <constraint firstItem="TSh-cz-DnQ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="eW5-LM-GKJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="emailField" destination="NwN-5w-7WL" id="Dhy-cm-iNN"/>
+                        <outlet property="passwordField" destination="VLd-9O-QLL" id="4br-HL-LMV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

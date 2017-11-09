@@ -1,0 +1,27 @@
+/* Class = "UIButton"; normalTitle = "Subscribe"; ObjectID = "0eR-qd-C51"; */
+"0eR-qd-C51.normalTitle" = "訂閱";
+
+/* Class = "UINavigationItem"; title = "Search"; ObjectID = "4X2-XO-xLB"; */
+"4X2-XO-xLB.title" = "搜索";
+
+/* Class = "UILabel"; text = "publications"; ObjectID = "5HU-aj-cwG"; */
+"5HU-aj-cwG.text" = "發布";
+
+/* Class = "UILabel"; text = "subscribers"; ObjectID = "Cds-xa-uXP"; */
+"Cds-xa-uXP.text" = "用戶";
+
+/* Class = "UISearchBar"; placeholder = "Search"; ObjectID = "ECb-JL-Gu1"; */
+"ECb-JL-Gu1.placeholder" = "搜索";
+
+/* Class = "UILabel"; text = "events"; ObjectID = "V5I-bE-leb"; */
+"V5I-bE-leb.text" = "事件";
+
+/* Class = "UITabBarItem"; title = "Search"; ObjectID = "dRJ-NZ-2HV"; */
+"dRJ-NZ-2HV.title" = "搜索";
+
+/* Class = "UILabel"; text = "www"; ObjectID = "rYX-oB-BWk"; */
+"rYX-oB-BWk.text" = "www";
+
+/* Class = "UILabel"; text = "We saved"; ObjectID = "viO-i2-COg"; */
+"viO-i2-COg.text" = "我們救了";
+

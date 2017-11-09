@@ -1,0 +1,100 @@
+/* UserSettingsTVC */
+"About" = "關於";
+
+/* UserSettingsTVC */
+"About Us" = "關於";
+
+/* LoginVC Alert Title */
+"Alert" = "警報";
+
+/* UserSettingsTVC */
+"Contact Us" = "聯繫我們";
+
+/* FeedVC Nav Bar Item */
+"Discover" = "發現";
+
+/* FeedVC Nav Bar Item */
+"Feed" = "最新發佈";
+
+/* Onboarding Follow title */
+"Follow" = "跟隨";
+
+/* GeneralUserSettingTVC
+   UserSettingsTVC */
+"General" = "常規設置";
+
+/* UserSettingsTVC */
+"Help / Feedback" = "幫助/反饋";
+
+/* LoginVC Alert Message */
+"Invalid Username or Password. Please try again." = "用戶名或密碼無效。 請再試一次。";
+
+/* UserSettingsTVC */
+"Logout" = "登出";
+
+/* FeedVC Nav Bar Item
+   UserProfileView Navigation Bar Me */
+"Me" = "我";
+
+/* UserProfileVC */
+"My Conservation Efforts" = "我的環保成就";
+
+/* PhotoStreamVC nav title */
+"My Feed" = "我的關注";
+
+/* LoginVC Alert Action
+   LoginVC Alert action OK */
+"OK" = "OK";
+
+/* OrganizationHomeVC */
+"Our Locations" = "商店地址";
+
+/* OrganizationHomeVC */
+"Our Publications" = "最新發佈";
+
+/* LoginVC Alert Message */
+"Please enter Email and Password" = "請輸入電子郵件和密碼";
+
+/* GeneralUserSettingTVC */
+"Privacy Policy" = "隱私政策";
+
+/* OrganizationRegionSelectorCVC */
+"Select a region to view locations" = "選地區";
+
+/* OrganizationRegionSelectorCVC */
+"Select a region to view publications" = "選地區";
+
+/* UserSettingsTVC */
+"Settings" = "設置";
+
+/* LoginVC Alert Title */
+"Sign in failed!" = "登錄失敗!";
+
+/* Onboarding Follow description */
+"Tailor your own grocers' updates." = "定制您自己的雜貨店的更新。";
+
+/* GeneralUserSettingTVC */
+"Terms and Condition" = "附帶條約";
+
+/* LanguageSelectFormVC */
+"What is your preferred language?" = "你最喜歡的語言是什麼？";
+
+/* OrganizationHomeVC ecofootprint carbon emission
+   user profile carbon count */
+"of carbon emissions" = "碳排放量";
+
+/* OrganizationHomeVC ecofootprint energy
+   user profile energy */
+"of electricity" = "電力";
+
+/* OrganizationHomeVC ecofootprint water
+   user profile water stats */
+"of water" = "水";
+
+/* OrganizationHomeVC ecofootprint trees
+   user profile tree counter */
+"trees" = "樹";
+
+/* Onboarding firstBody */
+"みどり is Japanese word for 'green'" = "米多利";
+
