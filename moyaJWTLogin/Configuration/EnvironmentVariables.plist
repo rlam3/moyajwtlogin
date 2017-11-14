@@ -5,9 +5,9 @@
 	<key>Development</key>
 	<dict>
 		<key>APIEndpointURL</key>
-		<string>http://10.0.1.59:5001/api</string>
+		<string>http://192.168.1.183:5001/api</string>
 		<key>BaseURL</key>
-		<string>http://10.0.1.59:5001/</string>
+		<string>http://192.168.1.183:5001/</string>
 	</dict>
 </dict>
 </plist>

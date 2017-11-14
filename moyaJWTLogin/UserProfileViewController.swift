@@ -7,6 +7,7 @@
 import UIKit
 import Moya_ModelMapper
 import RxSwift
+import Moya
 
 class UserProfileViewController: UIViewController {
 
@@ -20,15 +21,17 @@ class UserProfileViewController: UIViewController {
     var provider: Networking!
     let disposeBag = DisposeBag()
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         self.accessToken.text = AuthUser.get(.access_token) as? String
         self.refreshToken.text = AuthUser.get(.refresh_token) as? String
         
-        provider = Networking.newDefaultNetworking()
-
+//        let authPlugin = AccessTokenPlugin(tokenClosure: AuthUser.get(.access_token) as! String)
+//        let provider = OnlineProvider<JWTAPI>(plugins: [authPlugin])
+        
+        let provider = Networking.newDefaultNetworking()
+        
         provider.request(.getUserProfile())
             .map(to: UserProfile.self)
             .debug()

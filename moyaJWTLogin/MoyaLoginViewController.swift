@@ -20,7 +20,7 @@ class MoyaLoginViewController: UIViewController {
     @IBOutlet weak var passwordField: UITextField!
     @IBAction func pressedLoginButton(_ sender: Any) {
         
-        let enteredEmail = "asdfasdf@gmail.com"
+        let enteredEmail = "raymondlam1991@gmail.com"
         let enteredPassword = "asdfasdf"
 
 //        let enteredPassword = self.password.text

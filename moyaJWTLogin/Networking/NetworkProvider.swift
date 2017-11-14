@@ -12,7 +12,7 @@ import RxSwift
 class OnlineProvider<Target>: MoyaProvider<Target> where Target: TargetType {
 
     fileprivate let online: Observable<Bool>
-    fileprivate let provider: MoyaProvider<Target>    
+//    fileprivate let provider: MoyaProvider<Target>
     
     init(
         endpointClosure: @escaping MoyaProvider<Target>.EndpointClosure = MoyaProvider.defaultEndpointMapping,
@@ -23,22 +23,25 @@ class OnlineProvider<Target>: MoyaProvider<Target> where Target: TargetType {
         online: Observable<Bool> = connectedToInternetOrStubbing()) {
         
         self.online = online
-        self.provider = MoyaProvider(endpointClosure: endpointClosure, requestClosure: requestClosure, stubClosure: stubClosure, manager: manager, plugins: plugins)
+//        self.provider = MoyaProvider(endpointClosure: endpointClosure, requestClosure: requestClosure, stubClosure: stubClosure, manager: manager, plugins: plugins)
 
-        //        super.init(endpointClosure: endpointClosure, requestClosure: requestClosure, stubClosure: stubClosure, manager: manager, plugins: plugins)
+        super.init(endpointClosure: endpointClosure, requestClosure: requestClosure, stubClosure: stubClosure, manager: manager, plugins: plugins)
     }
 
     func request(_ token: Target) -> Observable<Moya.Response> {
-        let actualRequest = provider.rx.request(token)
+        let actualRequest = self.request(token)
+//        let actualRequest = super.request(token, completion: Moya.Completion)
+//        let actualRequest = super.request(token, completion: )
         return online
             //            .ignore(value: false)  // Wait until we're online
             .take(1)        // Take 1 to make sure we only invoke the API once.
             .flatMap { _ in // Turn the online state into a network request
                 return actualRequest
         }
-
     }
+
 }
+
 
 
 protocol NetworkingType {
@@ -47,7 +50,6 @@ protocol NetworkingType {
 }
 
 struct Networking: NetworkingType {
-
 
     typealias T = JWTAPI
     var provider: OnlineProvider<JWTAPI>
@@ -72,7 +74,10 @@ extension NetworkingType {
     static func newDefaultNetworking() -> Networking {
         
         print("Entering.... New Default Networking")
-        
+//        return OnlineProvider(plugins:self.plugins)
+//            let authPlugin = AccessTokenPlugin(tokenClosure: AuthUser.get(.access_token) as! String)
+
+//        return Networking(provider: newProvider(plugins: [authPlugin]))
         return Networking(provider: OnlineProvider<JWTAPI>(
             plugins: self.plugins
         ))
@@ -135,7 +140,7 @@ fileprivate extension Networking{
 extension Networking {
 
     func request(_ token: JWTAPI) -> Observable<Moya.Response> {
-        let actualRequest = self.provider.rx.request(token)
+        let actualRequest = provider.rx.request(token)
         return actualRequest.asObservable()
 //        return flatMap{ _ in actualRequest }
 //        return self.RequiresAuthenticationRequest().flatMap{ _ in actualRequest}
@@ -143,3 +148,11 @@ extension Networking {
     }
 
 }
+
+
+
+//
+//private func newProvider<T>(plugins: [PluginType]) -> OnlineProvider<T> {
+//    return OnlineProvider(plugins: plugins)
+//}
+
