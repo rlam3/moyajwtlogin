@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9406635E1FB3836C00F5B287 /* RxRefreshToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9406635D1FB3836C00F5B287 /* RxRefreshToken.swift */; };
+		9496D8E51FBE077900340E13 /* SmarterJWT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9496D8E41FBE077900340E13 /* SmarterJWT.swift */; };
 		94A499001FACFBF5006A205E /* Configurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A498FE1FACFBF5006A205E /* Configurations.swift */; };
 		94A499011FACFBF5006A205E /* EnvironmentVariables.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94A498FF1FACFBF5006A205E /* EnvironmentVariables.plist */; };
 		94A499041FACFD74006A205E /* GlobalFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A499031FACFD74006A205E /* GlobalFunctions.swift */; };
@@ -37,6 +38,7 @@
 		615B68BCD2CBA2D5286B0B80 /* Pods-moyaJWTLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moyaJWTLogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-moyaJWTLogin/Pods-moyaJWTLogin.debug.xcconfig"; sourceTree = "<group>"; };
 		893369DAFDF3C87592440ED9 /* Pods-moyaJWTLogin.development.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moyaJWTLogin.development.xcconfig"; path = "Pods/Target Support Files/Pods-moyaJWTLogin/Pods-moyaJWTLogin.development.xcconfig"; sourceTree = "<group>"; };
 		9406635D1FB3836C00F5B287 /* RxRefreshToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxRefreshToken.swift; sourceTree = "<group>"; };
+		9496D8E41FBE077900340E13 /* SmarterJWT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmarterJWT.swift; sourceTree = "<group>"; };
 		94A498FE1FACFBF5006A205E /* Configurations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configurations.swift; sourceTree = "<group>"; };
 		94A498FF1FACFBF5006A205E /* EnvironmentVariables.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EnvironmentVariables.plist; sourceTree = "<group>"; };
 		94A499031FACFD74006A205E /* GlobalFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalFunctions.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				94A702441FACF7CF003FD5C7 /* __AuthMoyaPlugin.swift */,
 				94A499071FAD1289006A205E /* UserAuthenticationTokens.swift */,
 				94A702421FACF7C3003FD5C7 /* Expirable.swift */,
+				9496D8E41FBE077900340E13 /* SmarterJWT.swift */,
 				94A499031FACFD74006A205E /* GlobalFunctions.swift */,
 				94F5018E1FB10893000F705F /* AuthUser.swift */,
 				9406635D1FB3836C00F5B287 /* RxRefreshToken.swift */,
@@ -289,6 +292,7 @@
 				94A499081FAD1289006A205E /* UserAuthenticationTokens.swift in Sources */,
 				9406635E1FB3836C00F5B287 /* RxRefreshToken.swift in Sources */,
 				94AB8BE21FB2257900731487 /* NonMainViewController.swift in Sources */,
+				9496D8E51FBE077900340E13 /* SmarterJWT.swift in Sources */,
 				94AB8BE41FB22BC200731487 /* UserProfileViewController.swift in Sources */,
 				94A7022C1FACF369003FD5C7 /* MoyaLoginViewController.swift in Sources */,
 				94A7022A1FACF369003FD5C7 /* AppDelegate.swift in Sources */,

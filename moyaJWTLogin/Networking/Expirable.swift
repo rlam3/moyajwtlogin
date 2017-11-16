@@ -1,9 +1,10 @@
 import Foundation
+import JWTDecode
 import RxSwift
 
 public protocol Expirable {
-    var expiresAt: Date { get }
     
+    var expiresAt: Date { get }
     /// If the token is going to expire in less than this, consider it expired and just get a new token
     var expirationMarginInterval: TimeInterval { get }
 }

@@ -8,15 +8,30 @@ import Cely
 import JWTDecode
 import RxSwift
 
-struct SmartToken: Expirable {
-    
-    let access_tokenString: String = AuthUser.get(.access_token) as! String
-    let refreshTokenString: String = AuthUser.get(.refresh_token) as! String
-    
-    let expiresAt: Date
+//struct SmartAccessToken: Expirable {
+//
+//    let expiresAt: Date
+//    var expirationMarginInterval: TimeInterval { return 30 }
+//    
+//    let tokenString: String = AuthUser.get(.access_token) as! String
+//    
+//}
 
+struct SmartAccessToken: Expirable {
+    
+    let jwt: JWT = try! decode(jwt: AuthUser.get(.access_token) as! String)
+    
+    var expiresAt: Date {
+        get{
+            let jwt = try! decode(jwt: AuthUser.get(.access_token) as! String)
+            return jwt.expiresAt!
+        }
+    }
+    
     var expirationMarginInterval: TimeInterval { return 30 }
+    
 }
+
 
 struct AuthUser: CelyUser {
     
@@ -72,4 +87,15 @@ extension AuthUser {
     static func get(_ property: Property) -> Any? {
         return property.get()
     }
+    
 }
+
+extension AuthUser {
+
+    static func isAccessTokenExpired(_ value: String, property: Property) -> Bool {
+        let jwt = try? decode(jwt: AuthUser.get(.access_token) as! String)
+        return jwt!.expired
+    }
+    
+}
+

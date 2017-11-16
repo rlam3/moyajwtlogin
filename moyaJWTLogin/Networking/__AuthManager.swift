@@ -19,9 +19,6 @@ import JWTDecode
 //
 //}
 
-
-
-
 class AuthManager{
     
     enum DefaultKeys: String{

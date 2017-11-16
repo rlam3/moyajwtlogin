@@ -58,7 +58,7 @@ class MoyaLoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        provider = Networking.newDefaultNetworking()
+        provider = Networking.unauthenticatedDefaultNetworking()
         
         
         // Do any additional setup after loading the view, typically from a nib.
