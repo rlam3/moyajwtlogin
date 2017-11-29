@@ -26,7 +26,7 @@ class OnlineProvider<Target>: MoyaProvider<Target> where Target: TargetType {
         self.online = online
         self.provider = MoyaProvider(endpointClosure: endpointClosure, requestClosure: requestClosure, stubClosure: stubClosure, manager: manager, plugins: plugins)
         
-        super.init(endpointClosure: endpointClosure, requestClosure: requestClosure, stubClosure: stubClosure, manager: manager, plugins: plugins)
+//        super.init(endpointClosure: endpointClosure, requestClosure: requestClosure, stubClosure: stubClosure, manager: manager, plugins: plugins)
     }
 
     func request(_ token: Target) -> Observable<Moya.Response> {
@@ -56,6 +56,13 @@ struct Networking: NetworkingType {
 
 }
 
+struct AuthenticatedNetworking: NetworkingType {
+    
+    typealias T = JWTAPI
+    var provider: OnlineProvider<JWTAPI>
+    
+}
+
 
 extension NetworkingType {
     
@@ -76,15 +83,17 @@ extension NetworkingType {
     static var plugins: [PluginType] {
 
 //        let authPlugin = AccessTokenPlugin(tokenClosure: smartTokenClosure(self.T) )
-        let authPlugin = AccessTokenPlugin(tokenClosure: AuthUser.get(.access_token) as! String)
+//        let authPlugin = AccessTokenPlugin(tokenClosure: AuthUser.get(.access_token) as! String)
 
         return [
             NetworkLoggerPlugin(verbose:true),
-            authPlugin
         ]
     }
 
     static var refreshTokenPlugins: [PluginType] {
+        
+        
+        
         let authPlugin = AccessTokenPlugin(tokenClosure: AuthUser.get(.refresh_token) as! String)
         
         return [
@@ -104,13 +113,15 @@ extension NetworkingType {
 
             let s_jwt = SmartAccessToken()
             if s_jwt.isExpiredOrExpiringSoon{
-                let authProvider = Networking.refreshTokenDefaultNetworking()
+                let authProvider = AuthenticatedNetworking.refreshTokenAuthorizedNetworking()
                 authProvider.request(.refreshAccessToken())
                     .filterSuccessfulStatusCodes()
+                    .debug()
                     .map(to: UserAuthenticationTokens.self)
                     .subscribe{ event in
                         switch event{
                         case .next(let object):
+                            
                             AuthUser.save([
                                 .access_token : object.access_token,
                                 .refresh_token: object.refresh_token
@@ -132,28 +143,35 @@ extension NetworkingType {
     
     static func unauthenticatedDefaultNetworking() -> Networking {
         
-        print("Entering.... Unauth Default Networking")
+        print("Entering.... unauthenticatedDefaultNetworking")
         return Networking(provider: OnlineProvider<JWTAPI>())
     }
     
-    static func refreshTokenDefaultNetworking() -> Networking {
-        
+    static func refreshTokenAuthorizedNetworking() -> AuthenticatedNetworking {
         print("Entering.... refreshTokenDefaultNetworking")
-        return Networking(provider: OnlineProvider<JWTAPI>(
-//            plugins: refreshTokenPlugins
-            requestClosure: self.endpointResolver()
+        return AuthenticatedNetworking(provider: OnlineProvider<JWTAPI>(
+//            requestClosure: endpointResolver(),
+            plugins: self.plugins
+        ))
+    }
+    
+    static func authorizedNetworking() -> AuthenticatedNetworking {
+        print("Entering.... authorizedNetworking")
+        return AuthenticatedNetworking(provider: OnlineProvider<JWTAPI>(
+            plugins: [
+                NetworkLoggerPlugin(verbose:true),
+            ]
         ))
     }
     
     // FIXME: During production... Network Logger should be turned off?
 
-    static func newDefaultNetworking() -> Networking {
-        print("Entering.... New Default Networking")
-        return Networking(provider: OnlineProvider<JWTAPI>(
-            requestClosure: self.endpointResolver(),
-            plugins: self.plugins
-        ))
-    }
+//    static func newDefaultNetworking() -> Networking {
+//        print("Entering.... New Default Networking")
+//        return AuthenticatedNetworking(provider: OnlineProvider<JWTAPI>(
+//            plugins: self.plugins
+//        ))
+//    }
 
 //    static func newStubbingNetworking() -> Networking {
 //        return Networking(provider: OnlineProvider<JWTAPI>(
@@ -170,38 +188,29 @@ extension NetworkingType {
 }
 
 
-fileprivate extension Networking{
+fileprivate extension AuthenticatedNetworking{
     
     func RequiresAuthenticationRequest() -> Observable<String> {
-        
-        let njwt_string = AuthUser.get(.access_token) as! String
-        
-//        guard let jwt: JWT = try! decode(jwt: njwt_string) else {
-//
-//        }
 
-        return .just(njwt_string)
-
-//        return .just(AuthUser.get(.access_token))
-        
-//
-//        // If access token is valid
-//        if AuthManager.shared.expiredAccessToken == false{
-//            return .just(jwt)
-//        }else{
-//
-//            // Refresh access token
-//            return request(.refreshAccessToken())
-//                .filterSuccessfulStatusCodes()
-//                .map(RefrehedAccessToken.self)
-//                .do(onNext: {
-//                    print("Saved new access token")
-//                    $0.save()
-//                }).map{ (token) -> String in
-//                    // Get new access token that was just saved
-//                    return AuthManager.shared.accessToken!
-//            }
-//        }
+        let s_jwt = SmartAccessToken() 
+        if s_jwt.isExpiredOrExpiringSoon == false{
+            return .just(s_jwt.jwt.string)
+        }else{
+//            let provider = AuthenticatedNetworking.refreshTokenAuthorizedNetworking()
+            return provider.request(.refreshAccessToken())
+                .debug()
+                .filterSuccessfulStatusCodes()
+                .map(to: UserAuthenticationTokens.self)
+                .do(onNext:{
+                    AuthUser.save([
+                        .access_token : $0.access_token,
+                        .refresh_token : $0.refresh_token
+                    ])
+                }).map{ (token) -> String in
+//                    print("\(String(describing: AuthUser.get(.access_token)))")
+                    return AuthUser.get(.access_token) as! String
+                }
+        }
         
     }
 }
@@ -212,13 +221,29 @@ fileprivate extension Networking{
 extension Networking {
 
     func request(_ token: JWTAPI) -> Observable<Moya.Response> {
-        let actualRequest = provider.rx.request(token)
-        return actualRequest.asObservable()
-//        return flatMap{ _ in actualRequest }
-//        return self.RequiresAuthenticationRequest().flatMap{ _ in actualRequest}
-        
-    }
 
+        return self.provider.request(token).asObservable()
+
+    }
+}
+
+
+extension AuthenticatedNetworking {
+    
+    func request(_ token: JWTAPI) -> Observable<Moya.Response> {
+        
+        let actualRequest = provider.request(token)
+        
+        // This helps break the refresAccessToken Infinite Loop
+        switch token {
+        case .refreshAccessToken:
+            return self.provider.request(token).asObservable()
+        default:
+            return self.RequiresAuthenticationRequest().flatMap{ _ in actualRequest}
+
+        }
+
+    }
 }
 
 

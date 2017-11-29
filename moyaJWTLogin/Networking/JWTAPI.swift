@@ -32,8 +32,8 @@ extension JWTAPI: TargetType, AccessTokenAuthorizable{
                 ["Authorization": "Bearer \(AuthUser.get(.refresh_token) ?? "")"]
         default:
             return [
-//                "Authorization": "Bearer \(AuthUser.get(.access_token) ?? "")",
-                "Content-type":"application/json"
+                "Authorization": "Bearer \(AuthUser.get(.access_token) ?? "")",
+//                "Content-type":"application/json"
             ]
         }
 //        return nil

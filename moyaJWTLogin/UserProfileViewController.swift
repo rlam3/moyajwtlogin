@@ -1,4 +1,4 @@
-//
+    //
 //  UserProfileViewController.swift
 //  moyaJWTLogin
 //
@@ -18,7 +18,7 @@ class UserProfileViewController: UIViewController {
     @IBOutlet weak var username: UILabel!
     @IBOutlet weak var info: UILabel!
     
-    var provider: Networking!
+//    var provider: Networking!
     let disposeBag = DisposeBag()
     
     override func viewDidLoad() {
@@ -30,8 +30,8 @@ class UserProfileViewController: UIViewController {
 //        let authPlugin = AccessTokenPlugin(tokenClosure: AuthUser.get(.access_token) as! String)
 //        let provider = OnlineProvider<JWTAPI>(plugins: [authPlugin])
         
-        let provider = Networking.newDefaultNetworking()
-        
+//        let provider = AuthenticatedNetworking.authorizedNetworking()
+        let provider = Networking.authorizedNetworking()
         provider.request(.getUserProfile())
             .map(to: UserProfile.self)
             .debug()
